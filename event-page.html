@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/basic.css">
     <title>Document</title>
 </head>
 <body>
@@ -13,7 +14,7 @@
         <div class="container-xxl">
           <!-- navbar brand / title -->
           <a class="navbar-brand" href="test_nav.html">
-            <span class="text-secondary fw-bold">
+            <span class="fw-bold h2" style="color:#362211;">
               Social Dub
             </span>
           </a>
@@ -26,11 +27,11 @@
           <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
             <form class="d-flex">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
+              <button class="btn btn-outline-secondary" type="submit">Search</button>
             </form>
             <ul class="navbar-nav">
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:black;">
                   Events
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
@@ -41,7 +42,7 @@
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="index.html" aria-disabled="true">Profile</a>
+                <a class="nav-link" href="index.html" aria-disabled="true" style="color:black;">home</a>
               </li>
             </ul>
           </div>
@@ -51,26 +52,26 @@
     <!--Events-->
     <div class="container justify-content-center">
         <h2 class="text-center">Event Title</h2>
-        <div class="card mb-3" style="max-width: 1400px;">
+        <div class="card mb-3 event-page-card">
             <div class="row g-0">
               <div class="col-md-6 d-none d-md-block">
-                <img src="/assets/images/woman.jpg" class="img-fluid rounded-start" alt="woman in christmas" style="width: 200px; height: 200px; object-fit: cover;">
+                <img src="/assets/images/woman.jpg" class="img-fluid rounded-start event-page-img" alt="woman in christmas">
               </div>
               <div class="col-md-3">
                 <div class="card-body">
-                  <p class="card-text">Secret Santa</p>
-                  <p class="card-text"> Some Dublin Bar</p>
+                  <p class="card-text fw-bold">Secret Santa</p>
+                  <p class="card-text fw-bold"> Some Dublin Bar</p>
                 </div>
               </div>
               <div class="col-md-3">
                 <div class="card-body">
-                  <p class="card-text ">Jan 6th - 21:00</p>
-                  <p class="card-text">By: Username</p>
+                  <p class="card-text fw-bold">Jan 6th - 21:00</p>
+                  <p class="card-text fw-bold">By: Username</p>
                 </div>
               </div>
             </div>
         </div>
-        <div class="card mb-3" style="max-width: 1400px;">
+        <div class="card mb-3 event-page-card">
             <div class="row g-0">
                 <div class="col-md-6">
                     <div class="card-body">
@@ -80,14 +81,14 @@
                 </div>
                 <div class="col-md-4">
                 <div class="card-body">
-                  <p class="card-text">Pets <i class="bi bi-check2-circle"></i></p>
-                  <p class="card-text">Smoking <i class="bi bi-slash-circle"></i></p>
-                  <p class="card-text">People 5/10</p>
+                  <p class="card-text fw-bold">Pets <i class="bi bi-check2-circle"></i></p>
+                  <p class="card-text fw-bold">Smoking <i class="bi bi-slash-circle"></i></p>
+                  <p class="card-text fw-bold">People 5/10</p>
                 </div>
               </div>
               <div class="col-md-2 d-flex align-items-center">
                 <div class="card-body">
-                    <button type="button" class="btn btn-success btn-lg align-center">Join</button>
+                    <button type="button" class="btn btn-success btn-lg align-center fw-bold">Join</button>
                 </div>
               </div>
             </div>
